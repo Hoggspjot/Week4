@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Deadlock {
+public class DeadLock {
     public static void main(String[] args) throws InterruptedException {
 
         MyDeadThreads myDeadThreads = new MyDeadThreads();
